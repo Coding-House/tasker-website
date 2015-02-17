@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .sorting-container a { color:#78695a; }	
+
+ul.tabs-vertical-frame li.current a, ul.tabs-vertical-frame li, .pr-tb-col:hover, .pr-tb-col.active .tb-content li, .pr-tb-col.active { border-color: #b1906f; }
+.border-title span, ul.tabs-vertical-frame li.current a, .button, .pr-tb-col .button, .demo-btn a.demo, .demo-btn a.purchase:hover, .border-title span, ul.tabs-vertical-frame li.current a, .pr-tb-col:hover, .pr-tb-col.active, .testimonial-wrapper .nav-numbers li.active a, .copyright, .mean-container .mean-nav, .mean-container a.meanmenu-reveal {  background:#987654; *background:#987654 !important; background:#987654\0/ !important; }
+
+.copyright .social-media li a { background: #79593a; }
+.copyright .social-media li a:hover { background:#65482b; }
+
+#main-menu > ul > li:hover > a, #main-menu > ul > li.current_page_item > a  { color:#bb9875; } 
+
+.contact-info h4, .contact-info a, .support-info span.call, .portfolio-title h4 a, .demo-btn span, .border-title, .pr-tb-col:hover .buy-now .button, .pr-tb-col.active .buy-now .button, .tb-header .price, .sorting-container a:hover, .sorting-container a.active-sort, .tp-caption.custom_title2 { color:#987654; }
+
+
+/*----*****---- << Header >> ----*****----*/
+#header { 
+	border-bottom:5px solid #65482b;
+	/* fallback/image non-cover color */
+	background-color: #79593a; 
+	/* Safari 4+, Chrome 1-9 */
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#987654), to(#79593a));
+	/* Safari 5.1+, Mobile Safari, Chrome 10+ */
+	background-image: -webkit-linear-gradient(top, #987654, #79593a); 
+	/* Firefox 3.6+ */
+	background-image: -moz-linear-gradient(top, #987654, #79593a);
+	/* IE 10+ */
+	background-image: -ms-linear-gradient(top, #987654, #79593a);
+	/* Opera 11.10+ */
+	background-image: -o-linear-gradient(top, #987654, #79593a);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#987654, endColorstr=#79593a);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#987654, endColorstr=#79593a)";
+}
+
+/*----*****---- << Button >> ----*****----*/		
+.button { text-shadow:1px 1px 0px rgba(0, 0, 0, 0.4); color:#ffffff; border-left:1px solid #836649; border-top:1px solid #836649; }
+.button:hover { background:#79593a; border-left:1px solid #694d32; border-top:1px solid #694d32; }
+
+.button.ico i:after { background: #79593a; border-right: 1px solid #aa8b6c; }
+.button.ico:hover i:after { background: #614529; border-right: 1px solid #987654; }
+
+.demo-btn a { text-shadow:1px 1px 0px rgba(0, 0, 0, 0.4); }
+.demo-btn a.demo { border-left:1px solid #aa8b6c; border-top:1px solid #836649; border-right:1px solid #987654;  }
+.demo-btn a.purchase { background:#79593a; border-left:1px solid #694d32; border-top:1px solid #694d32; border-right:1px solid #614529; }
+
+.demo-btn a.demo:hover { background:#79593a; border-left:1px solid #aa8b6c; }
+.demo-btn a.purchase:hover {  border-right:1px solid #614529;}
+
+/*----*****---- << Main title >> ----*****----*/
+.main-title { background: #987654; box-shadow:0 -7px 6px #79593a inset; }
+
+/*----*****---- << Services >> ----*****----*/
+.service:hover [class^="icon-"], .service:hover h4 { color:#987654; }
+.service:after{ border-right:5px solid #987654; }
+.service { border-bottom:5px solid #987654; }
+
+.pr-tb-col:hover .tb-content li, ul.tabs-vertical-frame li.current a, ul.tabs-vertical-frame li, .pr-tb-col.active .tb-content li{ border-color: #b1906f; }
+
+/*----*****---- << Testimonial >> ----*****----*/
+
+.testimonial-wrapper figure.testimonial-thumb > .item-mask { background:url(images/hexa-bg.png) center center no-repeat; }
+
+/*----*****---- << Pricing Table >> ----*****----*/
+.pr-tb-col:hover .tb-content li, .pr-tb-col.active .tb-content li { color:#fff; text-shadow:1px 1px 0px #5a7917; }
+
+.pr-tb-col:hover .buy-now .button, .pr-tb-col.active .buy-now .button { background:#ffffff !important; border-color:#dddddd; text-shadow:none; display:block; }
+.pr-tb-col:hover:after, .pr-tb-col.active:after {  border:5px solid #987654; }
+
+/*----*****---- << Portfolio >> ----*****----*/
+.image-overlay { background:rgba(152, 118, 84, 0.9); background:#987654\0/; *background:#987654; }
+.portfolio:hover .portfolio-detail { background:rgba(152, 118, 84, 0.9); background:#987654\0/; *background:#987654; }
+.sorting-container a:hover, .sorting-container a.active-sort { border-bottom-color:#987654; }
+.portfolio .image-overlay a span, .portfolio:hover .portfolio-detail .views { color: #987654; }
+.portfolio:hover .image-overlay a span:hover { color:#79593a; }
+
+/*----*****---- << Contact >> ----*****----*/
+.location h4.map-title { background:#987654; }
+

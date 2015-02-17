@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .sorting-container a { color:#737373; }	
+
+ul.tabs-vertical-frame li.current a, ul.tabs-vertical-frame li, .pr-tb-col:hover, .pr-tb-col.active .tb-content li, .pr-tb-col.active { border-color: #b2b2b2; }
+.border-title span, ul.tabs-vertical-frame li.current a, .button, .pr-tb-col .button, .demo-btn a.demo, .demo-btn a.purchase:hover, .border-title span, ul.tabs-vertical-frame li.current a, .pr-tb-col:hover, .pr-tb-col.active, .testimonial-wrapper .nav-numbers li.active a, .copyright, .mean-container .mean-nav, .mean-container a.meanmenu-reveal {  background:#8e8e8e; *background:#8e8e8e !important; background:#8e8e8e\0/ !important; }
+
+.copyright .social-media li a { background: #6f6f6f; }
+.copyright .social-media li a:hover { background:#5b5b5b; }
+
+#main-menu > ul > li:hover > a, #main-menu > ul > li.current_page_item > a  { color:#b1b1b1; } 
+
+.contact-info h4, .contact-info a, .support-info span.call, .portfolio-title h4 a, .demo-btn span, .border-title, .pr-tb-col:hover .buy-now .button, .pr-tb-col.active .buy-now .button, .tb-header .price, .sorting-container a:hover, .sorting-container a.active-sort, .tp-caption.custom_title2 { color:#8e8e8e; }
+
+
+/*----*****---- << Header >> ----*****----*/
+#header { 
+	border-bottom:5px solid #5b5b5b;
+	/* fallback/image non-cover color */
+	background-color: #6f6f6f; 
+	/* Safari 4+, Chrome 1-9 */
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8e8e8e), to(#6f6f6f));
+	/* Safari 5.1+, Mobile Safari, Chrome 10+ */
+	background-image: -webkit-linear-gradient(top, #8e8e8e, #6f6f6f); 
+	/* Firefox 3.6+ */
+	background-image: -moz-linear-gradient(top, #8e8e8e, #6f6f6f);
+	/* IE 10+ */
+	background-image: -ms-linear-gradient(top, #8e8e8e, #6f6f6f);
+	/* Opera 11.10+ */
+	background-image: -o-linear-gradient(top, #8e8e8e, #6f6f6f);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#8e8e8e, endColorstr=#6f6f6f);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#8e8e8e, endColorstr=#6f6f6f)";
+}
+
+/*----*****---- << Button >> ----*****----*/		
+.button { text-shadow:1px 1px 0px rgba(0, 0, 0, 0.4); color:#ffffff; border-left:1px solid #7b7b7b; border-top:1px solid #7b7b7b; }
+.button:hover { background:#6f6f6f; border-left:1px solid #606060; border-top:1px solid #606060; }
+
+.button.ico i:after { background: #6f6f6f; border-right: 1px solid #a3a3a3; }
+.button.ico:hover i:after { background: #575757; border-right: 1px solid #8e8e8e; }
+
+.demo-btn a { text-shadow:1px 1px 0px rgba(0, 0, 0, 0.4); }
+.demo-btn a.demo { border-left:1px solid #a3a3a3; border-top:1px solid #7b7b7b; border-right:1px solid #8e8e8e;  }
+.demo-btn a.purchase { background:#6f6f6f; border-left:1px solid #606060; border-top:1px solid #606060; border-right:1px solid #575757; }
+
+.demo-btn a.demo:hover { background:#6f6f6f; border-left:1px solid #a3a3a3; }
+.demo-btn a.purchase:hover {  border-right:1px solid #575757;}
+
+/*----*****---- << Main title >> ----*****----*/
+.main-title { background: #8e8e8e; box-shadow:0 -7px 6px #6f6f6f inset; }
+
+/*----*****---- << Services >> ----*****----*/
+.service:hover [class^="icon-"], .service:hover h4 { color:#8e8e8e; }
+.service:after{ border-right:5px solid #8e8e8e; }
+.service { border-bottom:5px solid #8e8e8e; }
+
+.pr-tb-col:hover .tb-content li, ul.tabs-vertical-frame li.current a, ul.tabs-vertical-frame li, .pr-tb-col.active .tb-content li{ border-color: #b2b2b2; }
+
+/*----*****---- << Testimonial >> ----*****----*/
+
+.testimonial-wrapper figure.testimonial-thumb > .item-mask { background:url(images/hexa-bg.png) center center no-repeat; }
+
+/*----*****---- << Pricing Table >> ----*****----*/
+.pr-tb-col:hover .tb-content li, .pr-tb-col.active .tb-content li { color:#fff; text-shadow:1px 1px 0px #5a7917; }
+
+.pr-tb-col:hover .buy-now .button, .pr-tb-col.active .buy-now .button { background:#ffffff !important; border-color:#dddddd; text-shadow:none; display:block; }
+.pr-tb-col:hover:after, .pr-tb-col.active:after {  border:5px solid #8e8e8e; }
+
+/*----*****---- << Portfolio >> ----*****----*/
+.image-overlay { background:rgba(142, 142, 142, 0.9); background:#8e8e8e\0/; *background:#8e8e8e; }
+.portfolio:hover .portfolio-detail { background:rgba(142, 142, 142, 0.9); background:#8e8e8e\0/; *background:#8e8e8e; }
+.sorting-container a:hover, .sorting-container a.active-sort { border-bottom-color:#8e8e8e; }
+.portfolio .image-overlay a span, .portfolio:hover .portfolio-detail .views { color: #8e8e8e; }
+.portfolio:hover .image-overlay a span:hover { color:#6f6f6f; }
+
+/*----*****---- << Contact >> ----*****----*/
+.location h4.map-title { background:#8e8e8e; }
+

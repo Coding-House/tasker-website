@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .sorting-container a { color:#785a6b; }	
+
+ul.tabs-vertical-frame li.current a, ul.tabs-vertical-frame li, .pr-tb-col:hover, .pr-tb-col.active .tb-content li, .pr-tb-col.active { border-color: #fa93cd; }
+.border-title span, ul.tabs-vertical-frame li.current a, .button, .pr-tb-col .button, .demo-btn a.demo, .demo-btn a.purchase:hover, .border-title span, ul.tabs-vertical-frame li.current a, .pr-tb-col:hover, .pr-tb-col.active, .testimonial-wrapper .nav-numbers li.active a, .copyright, .mean-container .mean-nav, .mean-container a.meanmenu-reveal {  background:#e67fb9; *background:#e67fb9 !important; background:#e67fb9\0/ !important; }
+
+.copyright .social-media li a { background: #c36198; }
+.copyright .social-media li a:hover { background:#ad4c82; }
+
+#main-menu > ul > li:hover > a, #main-menu > ul > li.current_page_item > a  { color:#ffacdb; } 
+
+.contact-info h4, .contact-info a, .support-info span.call, .portfolio-title h4 a, .demo-btn span, .border-title, .pr-tb-col:hover .buy-now .button, .pr-tb-col.active .buy-now .button, .tb-header .price, .sorting-container a:hover, .sorting-container a.active-sort, .tp-caption.custom_title2 { color:#e67fb9; }
+
+
+/*----*****---- << Header >> ----*****----*/
+#header { 
+	border-bottom:5px solid #ad4c82;
+	/* fallback/image non-cover color */
+	background-color: #c36198; 
+	/* Safari 4+, Chrome 1-9 */
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e67fb9), to(#c36198));
+	/* Safari 5.1+, Mobile Safari, Chrome 10+ */
+	background-image: -webkit-linear-gradient(top, #e67fb9, #c36198); 
+	/* Firefox 3.6+ */
+	background-image: -moz-linear-gradient(top, #e67fb9, #c36198);
+	/* IE 10+ */
+	background-image: -ms-linear-gradient(top, #e67fb9, #c36198);
+	/* Opera 11.10+ */
+	background-image: -o-linear-gradient(top, #e67fb9, #c36198);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#e67fb9, endColorstr=#c36198);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#e67fb9, endColorstr=#c36198)";
+}
+
+/*----*****---- << Button >> ----*****----*/		
+.button { text-shadow:1px 1px 0px rgba(0, 0, 0, 0.4); color:#ffffff; border-left:1px solid #c76ea0; border-top:1px solid #c76ea0; }
+.button:hover { background:#c36198; border-left:1px solid #a95483; border-top:1px solid #a95483; }
+
+.button.ico i:after { background: #c36198; border-right: 1px solid #ef9aca; }
+.button.ico:hover i:after { background: #a1497a; border-right: 1px solid #e67fb9; }
+
+.demo-btn a { text-shadow:1px 1px 0px rgba(0, 0, 0, 0.4); }
+.demo-btn a.demo { border-left:1px solid #ef9aca; border-top:1px solid #c76ea0; border-right:1px solid #e67fb9;  }
+.demo-btn a.purchase { background:#c36198; border-left:1px solid #a95483; border-top:1px solid #a95483; border-right:1px solid #a1497a; }
+
+.demo-btn a.demo:hover { background:#c36198; border-left:1px solid #ef9aca; }
+.demo-btn a.purchase:hover {  border-right:1px solid #a1497a;}
+
+/*----*****---- << Main title >> ----*****----*/
+.main-title { background: #e67fb9; box-shadow:0 -7px 6px #c36198 inset; }
+
+/*----*****---- << Services >> ----*****----*/
+.service:hover [class^="icon-"], .service:hover h4 { color:#e67fb9; }
+.service:after{ border-right:5px solid #e67fb9; }
+.service { border-bottom:5px solid #e67fb9; }
+
+.pr-tb-col:hover .tb-content li, ul.tabs-vertical-frame li.current a, ul.tabs-vertical-frame li, .pr-tb-col.active .tb-content li{ border-color: #fa93cd; }
+
+/*----*****---- << Testimonial >> ----*****----*/
+
+.testimonial-wrapper figure.testimonial-thumb > .item-mask { background:url(images/hexa-bg.png) center center no-repeat; }
+
+/*----*****---- << Pricing Table >> ----*****----*/
+.pr-tb-col:hover .tb-content li, .pr-tb-col.active .tb-content li { color:#fff; text-shadow:1px 1px 0px #5a7917; }
+
+.pr-tb-col:hover .buy-now .button, .pr-tb-col.active .buy-now .button { background:#ffffff !important; border-color:#dddddd; text-shadow:none; display:block; }
+.pr-tb-col:hover:after, .pr-tb-col.active:after {  border:5px solid #e67fb9; }
+
+/*----*****---- << Portfolio >> ----*****----*/
+.image-overlay { background:rgba(230, 127, 185, 0.9); background:#e67fb9\0/; *background:#e67fb9; }
+.portfolio:hover .portfolio-detail { background:rgba(230, 127, 185, 0.9); background:#e67fb9\0/; *background:#e67fb9; }
+.sorting-container a:hover, .sorting-container a.active-sort { border-bottom-color:#e67fb9; }
+.portfolio .image-overlay a span, .portfolio:hover .portfolio-detail .views { color: #e67fb9; }
+.portfolio:hover .image-overlay a span:hover { color:#c36198; }
+
+/*----*****---- << Contact >> ----*****----*/
+.location h4.map-title { background:#e67fb9; }
+
