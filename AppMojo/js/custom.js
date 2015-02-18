@@ -58,7 +58,7 @@ jQuery(document).ready(function($){
 			$("#donutchart3").donutchart({'size': 140, 'donutwidth': 10, 'fgColor': '#8aba23', 'bgColor': '#f5f5f5', 'textsize': 15 });
 			$("#donutchart3").donutchart("animate");
 			
-			$("#donutchart4").donutchart({'size': 140, 'donutwidth': 10, 'fgColor': '#35aad8', 'bgColor': '#f5f5f5', 'textsize': 15 });
+			$("#donutchart4").donutchart({'size': 140, 'donutwidth': 10, 'fgColor': '#4285F4', 'bgColor': '#f5f5f5', 'textsize': 15 });
 			$("#donutchart4").donutchart("animate");
 		}
 	});
