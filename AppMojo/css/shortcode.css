@@ -22,7 +22,7 @@
 .button.red { background:#E74D3C; border-left:1px solid #c84334; border-top:1px solid #c84334; }
 .button.coral { background:#FF7F50; border-left:1px solid #dd6e45; border-top:1px solid #dd6e45; }
 .button.green { background:#8aba23; border-left:1px solid #77a11e; border-top:1px solid #77a11e; }
-.button.blue { background:#35aad8; border-left:1px solid #2e93bb; border-top:1px solid #2e93bb; }
+.button.blue { background:#4285F4; border-left:1px solid #4285F4; border-top:1px solid #4285F4; }
 
 .button.red:hover { background:#cf3c2c; border-left:1px solid #b33426; border-top:1px solid #b33426; }
 .button.coral:hover { background:#e86230; border-left:1px solid #c9552a; border-top:1px solid #c9552a; }
