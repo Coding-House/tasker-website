@@ -3,7 +3,7 @@
 
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .sorting-container a { color:#6e785a; }	
 
-ul.tabs-vertical-frame li.current a, ul.tabs-vertical-frame li, .pr-tb-col:hover, .pr-tb-col.active .tb-content li, .pr-tb-col.active { border-color: #53C3EF; }
+ul.tabs-vertical-frame li.current a, ul.tabs-vertical-frame li, .pr-tb-col:hover, .pr-tb-col.active .tb-content li, .pr-tb-col.active { border-color: #4285F4; }
 .border-title span, ul.tabs-vertical-frame li.current a, .button, .pr-tb-col .button, .demo-btn a.demo, .demo-btn a.purchase:hover, .border-title span, ul.tabs-vertical-frame li.current a, .pr-tb-col:hover, .pr-tb-col.active, .testimonial-wrapper .nav-numbers li.active a, .copyright, .mean-container .mean-nav, .mean-container a.meanmenu-reveal {  background:#8aba23; *background:#8aba23 !important; background:#8aba23\0/ !important; }
 
 .copyright .social-media li a { background: #7aa127; }
